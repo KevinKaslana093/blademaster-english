@@ -1,0 +1,48 @@
+
+skel_electr_die.png
+size: 857,504
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+00001
+  rotate: false
+  xy: 2, 253
+  size: 283, 249
+  orig: 283, 249
+  offset: 0, 0
+  index: -1
+00002
+  rotate: false
+  xy: 2, 2
+  size: 283, 249
+  orig: 283, 249
+  offset: 0, 0
+  index: -1
+00003
+  rotate: false
+  xy: 287, 253
+  size: 283, 249
+  orig: 283, 249
+  offset: 0, 0
+  index: -1
+00004
+  rotate: false
+  xy: 287, 2
+  size: 283, 249
+  orig: 283, 249
+  offset: 0, 0
+  index: -1
+00005
+  rotate: false
+  xy: 572, 253
+  size: 283, 249
+  orig: 283, 249
+  offset: 0, 0
+  index: -1
+00006
+  rotate: false
+  xy: 572, 2
+  size: 283, 249
+  orig: 283, 249
+  offset: 0, 0
+  index: -1

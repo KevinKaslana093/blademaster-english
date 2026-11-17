@@ -1,0 +1,62 @@
+
+skel_electr_smoke.png
+size: 970,126
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+00001
+  rotate: true
+  xy: 2, 2
+  size: 122, 119
+  orig: 122, 119
+  offset: 0, 0
+  index: -1
+00002
+  rotate: true
+  xy: 123, 2
+  size: 122, 119
+  orig: 122, 119
+  offset: 0, 0
+  index: -1
+00003
+  rotate: true
+  xy: 244, 2
+  size: 122, 119
+  orig: 122, 119
+  offset: 0, 0
+  index: -1
+00004
+  rotate: true
+  xy: 365, 2
+  size: 122, 119
+  orig: 122, 119
+  offset: 0, 0
+  index: -1
+00005
+  rotate: true
+  xy: 486, 2
+  size: 122, 119
+  orig: 122, 119
+  offset: 0, 0
+  index: -1
+00006
+  rotate: true
+  xy: 607, 2
+  size: 122, 119
+  orig: 122, 119
+  offset: 0, 0
+  index: -1
+00007
+  rotate: true
+  xy: 728, 2
+  size: 122, 119
+  orig: 122, 119
+  offset: 0, 0
+  index: -1
+00008
+  rotate: true
+  xy: 849, 2
+  size: 122, 119
+  orig: 122, 119
+  offset: 0, 0
+  index: -1

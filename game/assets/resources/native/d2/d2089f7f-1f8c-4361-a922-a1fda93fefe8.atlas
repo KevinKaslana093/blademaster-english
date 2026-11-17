@@ -1,0 +1,62 @@
+
+skel_changesub_3.png
+size: 502,317
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+skel_changesub0
+  rotate: false
+  xy: 386, 215
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+skel_changesub01
+  rotate: false
+  xy: 2, 2
+  size: 125, 157
+  orig: 125, 157
+  offset: 0, 0
+  index: -1
+skel_changesub02
+  rotate: false
+  xy: 2, 161
+  size: 129, 154
+  orig: 129, 154
+  offset: 0, 0
+  index: -1
+skel_changesub03
+  rotate: false
+  xy: 133, 161
+  size: 127, 154
+  orig: 127, 154
+  offset: 0, 0
+  index: -1
+skel_changesub04
+  rotate: false
+  xy: 129, 6
+  size: 124, 153
+  orig: 124, 153
+  offset: 0, 0
+  index: -1
+skel_changesub05
+  rotate: false
+  xy: 262, 164
+  size: 122, 151
+  orig: 122, 151
+  offset: 0, 0
+  index: -1
+skel_changesub06
+  rotate: false
+  xy: 255, 9
+  size: 121, 150
+  orig: 121, 150
+  offset: 0, 0
+  index: -1
+skel_changesub07
+  rotate: false
+  xy: 378, 12
+  size: 122, 150
+  orig: 122, 150
+  offset: 0, 0
+  index: -1

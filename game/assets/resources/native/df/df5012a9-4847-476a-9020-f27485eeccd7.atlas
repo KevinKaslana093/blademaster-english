@@ -1,0 +1,27 @@
+
+skel_snake_hit_shine.png
+size: 301,103
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+a0001
+  rotate: true
+  xy: 244, 1
+  size: 101, 56
+  orig: 123, 100
+  offset: 0, 11
+  index: -1
+a0002
+  rotate: false
+  xy: 123, 14
+  size: 120, 88
+  orig: 123, 100
+  offset: 2, 4
+  index: -1
+a0003
+  rotate: false
+  xy: 1, 7
+  size: 121, 95
+  orig: 123, 100
+  offset: 0, 4
+  index: -1

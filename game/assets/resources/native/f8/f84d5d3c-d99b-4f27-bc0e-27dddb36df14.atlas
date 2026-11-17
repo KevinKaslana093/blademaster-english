@@ -1,0 +1,55 @@
+
+skel_boss_fire_die.png
+size: 952,935
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+00001
+  rotate: true
+  xy: 2, 607
+  size: 326, 309
+  orig: 326, 309
+  offset: 0, 0
+  index: -1
+00002
+  rotate: true
+  xy: 2, 279
+  size: 326, 309
+  orig: 326, 309
+  offset: 0, 0
+  index: -1
+00003
+  rotate: false
+  xy: 313, 624
+  size: 326, 309
+  orig: 326, 309
+  offset: 0, 0
+  index: -1
+00004
+  rotate: true
+  xy: 641, 607
+  size: 326, 309
+  orig: 326, 309
+  offset: 0, 0
+  index: -1
+00005
+  rotate: false
+  xy: 313, 313
+  size: 326, 309
+  orig: 326, 309
+  offset: 0, 0
+  index: -1
+00006
+  rotate: true
+  xy: 641, 279
+  size: 326, 309
+  orig: 326, 309
+  offset: 0, 0
+  index: -1
+00007
+  rotate: false
+  xy: 313, 2
+  size: 326, 309
+  orig: 326, 309
+  offset: 0, 0
+  index: -1

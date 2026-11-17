@@ -1,0 +1,90 @@
+
+skel_changesub_2.png
+size: 923,313
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+333
+  rotate: true
+  xy: 795, 249
+  size: 63, 38
+  orig: 63, 38
+  offset: 0, 0
+  index: -1
+555
+  rotate: false
+  xy: 723, 195
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+g0001
+  rotate: false
+  xy: 834, 252
+  size: 29, 29
+  orig: 29, 29
+  offset: 0, 0
+  index: -1
+g0002
+  rotate: false
+  xy: 834, 282
+  size: 61, 30
+  orig: 61, 30
+  offset: 0, 0
+  index: -1
+g0003
+  rotate: false
+  xy: 795, 215
+  size: 45, 33
+  orig: 45, 33
+  offset: 0, 0
+  index: -1
+g0004
+  rotate: true
+  xy: 696, 200
+  size: 15, 26
+  orig: 15, 26
+  offset: 0, 0
+  index: -1
+x1
+  rotate: true
+  xy: 696, 216
+  size: 96, 98
+  orig: 96, 98
+  offset: 0, 0
+  index: -1
+x2
+  rotate: false
+  xy: 681, 13
+  size: 241, 143
+  orig: 241, 143
+  offset: 0, 0
+  index: -1
+x3
+  rotate: false
+  xy: 331, 1
+  size: 349, 155
+  orig: 349, 155
+  offset: 0, 0
+  index: -1
+x4
+  rotate: false
+  xy: 331, 157
+  size: 364, 155
+  orig: 364, 155
+  offset: 0, 0
+  index: -1
+x5
+  rotate: false
+  xy: 1, 150
+  size: 329, 162
+  orig: 329, 162
+  offset: 0, 0
+  index: -1
+x6
+  rotate: false
+  xy: 1, 6
+  size: 324, 143
+  orig: 324, 143
+  offset: 0, 0
+  index: -1

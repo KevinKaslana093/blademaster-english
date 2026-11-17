@@ -1,0 +1,97 @@
+
+skel_boss_fire_effect.png
+size: 586,416
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+00001
+  rotate: false
+  xy: 340, 16
+  size: 108, 68
+  orig: 108, 68
+  offset: 0, 0
+  index: -1
+00002
+  rotate: false
+  xy: 353, 86
+  size: 115, 73
+  orig: 115, 73
+  offset: 0, 0
+  index: -1
+00003
+  rotate: true
+  xy: 185, 2
+  size: 117, 73
+  orig: 117, 73
+  offset: 0, 0
+  index: -1
+00004
+  rotate: false
+  xy: 353, 161
+  size: 119, 81
+  orig: 119, 81
+  offset: 0, 0
+  index: -1
+00005
+  rotate: true
+  xy: 260, 7
+  size: 112, 78
+  orig: 112, 78
+  offset: 0, 0
+  index: -1
+00006
+  rotate: false
+  xy: 474, 159
+  size: 101, 83
+  orig: 101, 83
+  offset: 0, 0
+  index: -1
+00007
+  rotate: false
+  xy: 470, 77
+  size: 94, 80
+  orig: 94, 80
+  offset: 0, 0
+  index: -1
+00008
+  rotate: true
+  xy: 450, 2
+  size: 73, 64
+  orig: 73, 64
+  offset: 0, 0
+  index: -1
+00009
+  rotate: false
+  xy: 516, 20
+  size: 68, 55
+  orig: 68, 55
+  offset: 0, 0
+  index: -1
+00010
+  rotate: false
+  xy: 525, 362
+  size: 58, 52
+  orig: 58, 52
+  offset: 0, 0
+  index: -1
+2222
+  rotate: false
+  xy: 353, 244
+  size: 170, 170
+  orig: 170, 170
+  offset: 0, 0
+  index: -1
+g
+  rotate: false
+  xy: 2, 121
+  size: 349, 293
+  orig: 349, 293
+  offset: 0, 0
+  index: -1
+g2
+  rotate: true
+  xy: 2, 10
+  size: 109, 181
+  orig: 109, 181
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,27 @@
+
+skel_loading2.png
+size: 314,141
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+l1
+  rotate: false
+  xy: 2, 14
+  size: 125, 125
+  orig: 125, 125
+  offset: 0, 0
+  index: -1
+l2
+  rotate: false
+  xy: 129, 84
+  size: 183, 55
+  orig: 183, 55
+  offset: 0, 0
+  index: -1
+l3
+  rotate: true
+  xy: 2, 2
+  size: 10, 9
+  orig: 10, 9
+  offset: 0, 0
+  index: -1

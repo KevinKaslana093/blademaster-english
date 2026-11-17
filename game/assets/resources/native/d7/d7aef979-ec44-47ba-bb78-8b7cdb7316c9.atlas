@@ -1,0 +1,76 @@
+
+skel_changesub_5.png
+size: 617,142
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dd0001
+  rotate: false
+  xy: 308, 65
+  size: 74, 76
+  orig: 85, 84
+  offset: 5, 4
+  index: -1
+dd0002
+  rotate: true
+  xy: 383, 67
+  size: 74, 73
+  orig: 85, 84
+  offset: 5, 6
+  index: -1
+dd0003
+  rotate: false
+  xy: 152, 57
+  size: 74, 84
+  orig: 85, 84
+  offset: 5, 0
+  index: -1
+dd0004
+  rotate: false
+  xy: 466, 8
+  size: 66, 73
+  orig: 85, 84
+  offset: 9, 6
+  index: -1
+hh
+  rotate: false
+  xy: 466, 82
+  size: 150, 59
+  orig: 150, 59
+  offset: 0, 0
+  index: -1
+s00001
+  rotate: true
+  xy: 63, 29
+  size: 112, 88
+  orig: 172, 105
+  offset: 31, 9
+  index: -1
+s00002
+  rotate: true
+  xy: 1, 16
+  size: 125, 61
+  orig: 172, 105
+  offset: 21, 24
+  index: -1
+s00003
+  rotate: false
+  xy: 309, 3
+  size: 156, 61
+  orig: 172, 105
+  offset: 6, 31
+  index: -1
+s00004
+  rotate: false
+  xy: 152, 1
+  size: 156, 55
+  orig: 172, 105
+  offset: 6, 29
+  index: -1
+w1
+  rotate: false
+  xy: 227, 61
+  size: 80, 80
+  orig: 84, 84
+  offset: 0, 4
+  index: -1

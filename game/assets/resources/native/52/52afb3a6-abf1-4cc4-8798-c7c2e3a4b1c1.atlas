@@ -1,0 +1,13 @@
+
+skel_gold_lvup.png
+size: 160,160
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+skel_gold_lvup01
+  rotate: false
+  xy: 1, 1
+  size: 158, 158
+  orig: 160, 161
+  offset: 0, 3
+  index: -1

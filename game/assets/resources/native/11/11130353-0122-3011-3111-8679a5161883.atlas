@@ -1,0 +1,139 @@
+
+skel_levelguide.png
+size: 986,453
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+00 (1)
+  rotate: true
+  xy: 734, 43
+  size: 67, 75
+  orig: 67, 75
+  offset: 0, 0
+  index: -1
+00 (2)
+  rotate: false
+  xy: 264, 172
+  size: 310, 67
+  orig: 310, 67
+  offset: 0, 0
+  index: -1
+00 (2)+
+  rotate: false
+  xy: 2, 34
+  size: 379, 68
+  orig: 379, 68
+  offset: 0, 0
+  index: -1
+00 (3)
+  rotate: true
+  xy: 2, 2
+  size: 30, 78
+  orig: 30, 78
+  offset: 0, 0
+  index: -1
+00 (4)
+  rotate: true
+  xy: 264, 115
+  size: 55, 46
+  orig: 55, 46
+  offset: 0, 0
+  index: -1
+00 (5)
+  rotate: false
+  xy: 264, 241
+  size: 208, 210
+  orig: 208, 210
+  offset: 0, 0
+  index: -1
+00 (6)
+  rotate: false
+  xy: 82, 8
+  size: 75, 24
+  orig: 75, 24
+  offset: 0, 0
+  index: -1
+00 (7)
+  rotate: false
+  xy: 633, 112
+  size: 131, 99
+  orig: 131, 99
+  offset: 0, 0
+  index: -1
+0133
+  rotate: false
+  xy: 2, 104
+  size: 260, 347
+  orig: 260, 347
+  offset: 0, 0
+  index: -1
+9999
+  rotate: false
+  xy: 633, 11
+  size: 99, 99
+  orig: 99, 99
+  offset: 0, 0
+  index: -1
+k0001
+  rotate: false
+  xy: 383, 92
+  size: 248, 78
+  orig: 248, 78
+  offset: 0, 0
+  index: -1
+k0002
+  rotate: false
+  xy: 383, 12
+  size: 248, 78
+  orig: 248, 78
+  offset: 0, 0
+  index: -1
+k0003
+  rotate: false
+  xy: 474, 373
+  size: 248, 78
+  orig: 248, 78
+  offset: 0, 0
+  index: -1
+k0004
+  rotate: false
+  xy: 474, 293
+  size: 248, 78
+  orig: 248, 78
+  offset: 0, 0
+  index: -1
+k0005
+  rotate: false
+  xy: 576, 213
+  size: 248, 78
+  orig: 248, 78
+  offset: 0, 0
+  index: -1
+k0006
+  rotate: false
+  xy: 724, 373
+  size: 248, 78
+  orig: 248, 78
+  offset: 0, 0
+  index: -1
+k0007
+  rotate: false
+  xy: 724, 293
+  size: 248, 78
+  orig: 248, 78
+  offset: 0, 0
+  index: -1
+k0008
+  rotate: true
+  xy: 826, 43
+  size: 248, 78
+  orig: 248, 78
+  offset: 0, 0
+  index: -1
+k0009
+  rotate: true
+  xy: 906, 43
+  size: 248, 78
+  orig: 248, 78
+  offset: 0, 0
+  index: -1

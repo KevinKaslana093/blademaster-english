@@ -1,0 +1,48 @@
+
+skel_player_die.png
+size: 75,265
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+z0
+  rotate: false
+  xy: 1, 50
+  size: 52, 42
+  orig: 54, 44
+  offset: 2, 2
+  index: -1
+z00
+  rotate: true
+  xy: 1, 149
+  size: 115, 14
+  orig: 115, 14
+  offset: 0, 0
+  index: -1
+z01+
+  rotate: false
+  xy: 1, 1
+  size: 46, 48
+  orig: 64, 63
+  offset: 9, 7
+  index: -1
+z02+
+  rotate: false
+  xy: 1, 93
+  size: 54, 55
+  orig: 64, 63
+  offset: 5, 4
+  index: -1
+z03+
+  rotate: false
+  xy: 16, 154
+  size: 56, 57
+  orig: 64, 63
+  offset: 4, 3
+  index: -1
+z04+
+  rotate: true
+  xy: 16, 212
+  size: 52, 58
+  orig: 64, 63
+  offset: 6, 2
+  index: -1

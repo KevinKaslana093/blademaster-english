@@ -1,0 +1,1 @@
+[1,0,0,[["cc.AnimationClip",["_name","_duration","events","curveData"],-1]],[[0,0,1,2,3,5]],[[0,"hurt1",0.05,[{"frame":0.05,"func":"onAnimCompleted","params":[0]}],{"props":{"scaleX":[{"frame":0,"value":1},{"frame":0.05,"value":1.1}],"scaleY":[{"frame":0,"value":1},{"frame":0.05,"value":1.1}]}}]],0,0,[],[],[]]

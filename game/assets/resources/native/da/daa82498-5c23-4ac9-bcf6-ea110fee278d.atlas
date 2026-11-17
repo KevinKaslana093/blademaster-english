@@ -1,0 +1,13 @@
+
+skel_main_lvup_circle.png
+size: 191,199
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+光2
+  rotate: false
+  xy: 1, 1
+  size: 189, 197
+  orig: 189, 197
+  offset: 0, 0
+  index: -1

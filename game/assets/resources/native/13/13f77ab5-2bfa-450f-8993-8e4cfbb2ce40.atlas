@@ -1,0 +1,27 @@
+
+skel_guide_slide.png
+size: 232,530
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+e (1)
+  rotate: true
+  xy: 148, 177
+  size: 351, 82
+  orig: 351, 82
+  offset: 0, 0
+  index: -1
+e (2)
+  rotate: true
+  xy: 2, 184
+  size: 344, 144
+  orig: 344, 144
+  offset: 0, 0
+  index: -1
+e (3)
+  rotate: true
+  xy: 2, 2
+  size: 180, 141
+  orig: 180, 141
+  offset: 0, 0
+  index: -1

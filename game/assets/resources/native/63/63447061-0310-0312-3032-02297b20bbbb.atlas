@@ -1,0 +1,20 @@
+
+skel_main_lvup_shine.png
+size: 94,172
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ggg
+  rotate: false
+  xy: 1, 1
+  size: 50, 56
+  orig: 50, 73
+  offset: 0, 8
+  index: -1
+刀光2
+  rotate: true
+  xy: 1, 58
+  size: 113, 92
+  orig: 117, 96
+  offset: 0, 4
+  index: -1

@@ -1,0 +1,48 @@
+
+skel_pass_bomb.png
+size: 845,559
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+00
+  rotate: false
+  xy: 1, 56
+  size: 504, 502
+  orig: 504, 502
+  offset: 0, 0
+  index: -1
+001
+  rotate: true
+  xy: 506, 1
+  size: 557, 338
+  orig: 559, 340
+  offset: 1, 1
+  index: -1
+z01+
+  rotate: false
+  xy: 119, 1
+  size: 57, 54
+  orig: 57, 58
+  offset: 0, 2
+  index: -1
+z02+
+  rotate: false
+  xy: 177, 1
+  size: 57, 54
+  orig: 57, 58
+  offset: 0, 2
+  index: -1
+z03+
+  rotate: false
+  xy: 1, 1
+  size: 58, 54
+  orig: 58, 54
+  offset: 0, 0
+  index: -1
+z04+
+  rotate: false
+  xy: 60, 1
+  size: 58, 54
+  orig: 58, 54
+  offset: 0, 0
+  index: -1
