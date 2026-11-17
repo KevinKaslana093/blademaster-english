@@ -13,18 +13,31 @@
   <style>
     *{box-sizing:border-box}html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#020b12}
     body{display:flex;align-items:center;justify-content:center}iframe{display:block;flex-shrink:0;border:0;width:100%;height:100%;background:#020b12;transform-origin:center}
+    #loading{position:fixed;inset:0;z-index:1;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:20px;background:#020b12;color:#eaf7ff;font:18px system-ui,sans-serif}#loading[hidden]{display:none}
+    .spinner{width:40px;height:40px;border:4px solid #12364a;border-top-color:#32dafa;border-radius:50%;animation:spin 1s linear infinite}@keyframes spin{to{transform:rotate(360deg)}}
+    #reload{padding:12px 22px;border:1px solid #32dafa;border-radius:8px;background:#103a52;color:white;font:inherit}
   </style>
 </head>
 <body><iframe title="BladeMaster game" allow="autoplay;fullscreen" allowfullscreen></iframe>
+<div id="loading" role="status" aria-live="polite"><span class="spinner" aria-hidden="true"></span><span id="load-message">Loading game…</span><button id="reload" hidden>Reload game</button></div>
 <script>
   function fitGame(){const frame=document.querySelector('iframe'),desktop=matchMedia('(min-width:600px) and (hover:hover)').matches;
     frame.style.width=desktop?'390px':'100%';frame.style.height=desktop?'844px':'100%';
     frame.style.transform=desktop?'scale('+Math.min(1,innerWidth/390,innerHeight/844)+')':'none';}
   addEventListener('resize',fitGame,{passive:true});fitGame();
+  document.querySelector('#reload').onclick=function(){location.reload();};
+  setTimeout(function(){document.querySelector('#reload').hidden=false;},30000);
+  var readiness=setInterval(function(){try{
+    var frame=document.querySelector('iframe'),w=frame.contentWindow;if(!w.cc||!w.__require)return;
+    var value=w.__require('CommonValue').GValue,home=value.HomeUI,world=value.EntityWorld;
+    if((home&&home.node.activeInHierarchy&&home.btn_start.activeInHierarchy&&(!home.node_shield||!home.node_shield.active))||(world&&world.m_gameStart&&world.player&&!world.player.isDead)){
+      document.querySelector('#loading').hidden=true;clearInterval(readiness);
+    }
+  }catch(error){}},150);
   fetch('./game/index.html').then(function(response){if(!response.ok)throw Error('load');return response.text();}).then(function(html){
     var base=new URL('./game/',location.href).href,scope=new URL('./storage-scope.js',location.href).href;
     var head='<base href="'+base+'"><script src="'+scope+'"><\/script>';
     document.querySelector('iframe').srcdoc=html.replace(/<head(?:\s[^>]*)?>/i,function(tag){return tag+head;});
-  }).catch(function(){var retry=document.createElement('button');retry.textContent='Reload game';retry.onclick=function(){location.reload();};document.querySelector('iframe').replaceWith(retry);});
+  }).catch(function(){document.querySelector('#load-message').textContent='Could not load game';document.querySelector('#reload').hidden=false;});
 </script></body>
 </html>
