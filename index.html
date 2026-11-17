@@ -15,11 +15,16 @@
     body{display:flex;align-items:center;justify-content:center}iframe{display:block;flex-shrink:0;border:0;width:100%;height:100%;background:#020b12;transform-origin:center}
   </style>
 </head>
-<body><iframe src="./game/index.html" title="BladeMaster game" allow="autoplay;fullscreen" allowfullscreen></iframe>
+<body><iframe title="BladeMaster game" allow="autoplay;fullscreen" allowfullscreen></iframe>
 <script>
   function fitGame(){const frame=document.querySelector('iframe'),desktop=matchMedia('(min-width:600px) and (hover:hover)').matches;
     frame.style.width=desktop?'390px':'100%';frame.style.height=desktop?'844px':'100%';
     frame.style.transform=desktop?'scale('+Math.min(1,innerWidth/390,innerHeight/844)+')':'none';}
   addEventListener('resize',fitGame,{passive:true});fitGame();
+  fetch('./game/index.html').then(function(response){if(!response.ok)throw Error('load');return response.text();}).then(function(html){
+    var base=new URL('./game/',location.href).href,scope=new URL('./storage-scope.js',location.href).href;
+    var head='<base href="'+base+'"><script src="'+scope+'"><\/script>';
+    document.querySelector('iframe').srcdoc=html.replace(/<head(?:\s[^>]*)?>/i,function(tag){return tag+head;});
+  }).catch(function(){var retry=document.createElement('button');retry.textContent='Reload game';retry.onclick=function(){location.reload();};document.querySelector('iframe').replaceWith(retry);});
 </script></body>
 </html>
