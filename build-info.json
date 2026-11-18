@@ -1,6 +1,6 @@
 {
-  "build": "BladeMaster-English-r27",
-  "web_tree_sha256": "2a5679d5e9cf2f48380d7ba1288f3022e90e272ab354002749757037321f4d48",
+  "build": "BladeMaster-English-r30",
+  "web_tree_sha256": "1adfd0083380d9c73a01e33deb82e4ddb7c3c752a5e4cf61d43c271d0ea00a84",
   "game_files": {
     "cocos2d-js-min.js": "5cd7859d64cb3591cf9b019ced9d9754a432f21c27eab9c98276ac6183b66745",
     "favicon.ico": "0ee6ea35321de21db85992f64e4b846def7abac1222fa2250318878396df988e",
@@ -15,7 +15,7 @@
     "assets/internal/config.json": "68396266846952691244cf81f15a0add9c671ec05395306af0839841ec9de4ed",
     "assets/internal/index.js": "91e9970eba5f76af1a8585527b6e80352978ac231908ea9e6ec3e139e8f326a5",
     "assets/main/config.json": "99e617fd22e6f48062e2840b201f4367904b398656a062e8bf9489307f89ad7f",
-    "assets/main/index.js": "68f189e7b06beda15ce218b5fdd2c6afffa427ef9bfe1fe3455b0dca6e19d829",
+    "assets/main/index.js": "48f0fae32e1a3a2c3509d80273b12dd121d71d5ad432f7948b87d85d963d1d2f",
     "assets/resources/config.json": "a28e0d1af9c5a7de8a85931cfa36f6061cb6621d339f22d0c5fac9874be9cd5a",
     "assets/resources/index.js": "91e9970eba5f76af1a8585527b6e80352978ac231908ea9e6ec3e139e8f326a5",
     "assets/resources/native/01/01a4acc5-fc4a-4e63-aa66-721220dfc7ca.png": "cf94f242ea1839a1e09da99e111832243467be20a7be49002ee72284686ad5c5",
